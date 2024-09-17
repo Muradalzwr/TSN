@@ -1,0 +1,25 @@
+1- öffen wir die Eingabeaufforderung und Docker desktop.
+2- wir  wähel in der Eingabeaufforderung, wo das projekt ist.
+3- wir schreiben "docker build -t tsn .", um uns docker images zu machen.
+4- wir haben jetzt docker images auf docker Desktop.
+5- wir kliken auf RUN, um wir docker Containers zu haben.
+6- wir starten das Containers mit klick CLI bzw. Termnal.
+7- wir scheiben auf CLI die folgende Schritte
+  a- cd tsn => um das projekt zu wählen.
+  b- ls => zeigt, was wir ins Projekt haben(app.jar  streams.pat  topology.top). 
+  c- java -jar app.jar => um das Projekt zu starten.
+  d- zeigt das CLI die folgente Schritte
+ Output: Enter  path of Streams file
+ Input: streams.pat
+ Output: Enter  path of Topolgy file
+ Input: topology.top
+ Output: Parsing Complete
+         Choose an Option to  Execute
+        1.Check Parsing  - 2.Procces Tsn Resualts
+ Input: 1 oder 2
+ Output(1): Cheking Proccing
+ Output(2): TSN Hericstic  Proccing
+ 
+   e- ls für Input(1) => zeigt: app.jar  streams.json  streams.pat   topology.top
+   f- ls für Input(2) => zeigt: app.jar  results.json  streams.pat   topology.top
+   g- cat results.json => um wir die Results zu zeigen
